@@ -1,0 +1,277 @@
+
+.bar{
+	height: 10px;
+	background-color: rgb(46,204,113);
+}
+.header{
+	background-image: url("header.png");
+	height: 475px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.center{
+	clear: both;
+  	max-width: 1349px;
+  	margin: auto;
+  	padding-top: 0px;
+  	display: block;
+  	position: relative;
+}
+#data{
+	position: relative;
+	margin: auto;
+	margin-left: 20%;
+	margin-top: 10%;	
+	padding: 0px;
+	width: 60%;
+	height: 60%;
+	overflow: hidden;
+	float: left;
+}
+.notify{
+	position: relative;
+	width: 150px;
+	height: 75px;
+	text-align: right;
+}
+#icon1{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("apple.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#icon2{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("android.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+#icon3{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("windows.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+#icon1:hover, #icon2:hover, #icon3:hover{
+	background-color: rgb(46,204,113);
+	cursor: pointer;
+	transition: .3s ease-in-out 0s;
+}
+.feature1{
+	clear: both;
+	margin: auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(46,204,113);
+	background-image: url("bg1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.feature2{
+	clear: both;
+	margin: auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(46,204,113);
+	background-image: url("bg2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.feature3{
+	clear: both;
+	margin: auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(46,204,113);
+	background-image: url("bg3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.feature1:hover, .feature2:hover, .feature3:hover{
+	opacity: 0.6;
+	cursor: pointer;
+	transition: .3s ease-in-out 0s;
+}
+.font1{
+	font-family: tahoma;
+	font-size: 22px;
+	color: rgb(34,34,34);
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.data{
+	font-family: tahoma;
+	font-size: 15px;
+	color: rgba(132,132,132,1);
+	text-align: center;
+}
+#title{
+	font-size: 22px;
+	font-family: tahoma;
+	color: black;
+	margin-bottom: 20px;
+}
+#notify-data{
+	color: rgba(132,132,132,1);
+	font-family: tahoma;
+	font-size: 15px;
+
+}
+#box-dimension{
+	width: 200px;
+	height: 35px;
+	border-radius: 10px 0 0 10px;
+	border: none;
+}
+#button-dimension{
+	width: 110px;
+	height: 35px;
+	background-color: rgb(46,204,113);
+	color: white;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: none;
+	margin: 0px;
+	font-size: 18px;
+	font-family: arial;
+	padding-top: 5px;
+	padding-left: 32px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+#button-dimension:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	transition: .3s ease-in-out 0s;
+}
+#testimonial-data{
+	color: rgb(132,132,132);
+	font-size: 15px;
+	font-family: tahoma;
+	font-style: italic;
+	text-align: center;
+	clear: both;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 725px;
+}
+#hi{
+	margin-top: 125px;
+	font-size: 25px;
+	text-align: center;
+	font-family: tahoma;
+}
+#hi2{
+	margin-top: 20px;
+	font-size: 16px;
+	color: rgb(132,132,132);
+	text-align: center;
+}
+.contacts{
+	clear: both;
+	margin: auto;
+	width: 300px;
+	display: flex;
+	margin-top: 25px;
+}
+#favicon1{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon2{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon3{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon4{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo4.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon5{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo5.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon6{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgb(197,197,197);
+	background-image: url("logo6.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#favicon1:hover, #favicon2:hover, #favicon3:hover, #favicon4:hover, #favicon5:hover, #favicon6:hover{
+	background-color: rgb(46,204,113);
+	cursor: pointer;
+	transition: .3s ease-in-out 0s;
+}
+ul{
+	clear: both;
+	margin: auto;
+	max-width: 500px;
+	padding: 50px 0 50px 0;
+}
+li{
+	display: inline;
+	list-style-type: none;
+	margin-left: 30px;
+}
+li a{
+	color: rgb(132,132,132);
+}
+li a:hover{
+	color: black;
+	transition: .3s ease-in-out 0s;
+}
+#dp1:hover, #dp:hover, #dp21:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	transition: .3s ease-in-out 0s;
+}
